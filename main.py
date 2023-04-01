@@ -20,7 +20,7 @@ with st.sidebar:
 
 if Lista_de_Menu=="HOME":
     st.header(":orange[BEM-VINDO A CODE-MIND]")
-    Imagem="PG.PNG"
+    Imagem="PG.png"
     st.image(Imagem)
 #CRIANDO COLUNAS
 col1, col2, col3  = st.columns(3)
