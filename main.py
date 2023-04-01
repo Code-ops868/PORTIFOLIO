@@ -13,6 +13,8 @@ with st.sidebar:
     st.title(":orange[Cell:]")
     st.write("(+258)-876587356")
     st.write("(+258)-845756134")
+    QRCODEE="mind.png"
+    st.image(QRCODEE)
 
 
     st.title(":orange[Cidade de Nampula]")
