@@ -34,7 +34,7 @@ with st.sidebar:
     st.title(":orange[Cidade de Nampula]")
 
 
-if Lista_de_Menu=="HOME":
+if Lista_de_Menu=="INÍCIO":
     st.header(":orange[BEM-VINDO A CODE-MIND]")
     Imagem="PG.png"
     st.image(Imagem)
