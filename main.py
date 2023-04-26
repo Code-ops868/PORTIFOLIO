@@ -1,21 +1,10 @@
 #from streamlit_option_menu import option_menu
 import streamlit as st
 st.set_page_config(page_title="CODE-MIND",page_icon="cod.png")
-# PARA SELEÇAO DE MENUS
+PARA SELEÇAO DE MENUS
 st.header(":orange[MENU]")
 Lista_de_Menu=st.selectbox("---",options=['HOME','SOBRE','SERVIÇOS','CURSOS','APLICATIVOS','CONTACTOS'])
-'''with st.sidebar:
-    Selecao=option_menu(
-        menu_title="MENU",
-        options=["INÍCIO","SOBRE","SERVIÇOS","CURSOS","APLICATIVOS",'CONTACTOS'],
-        menu_icon="cast",
-        icons=["house","about","pen","book","contact"],
-        styles={
-            "icon":{
-            "color":"green"
-                    }
-                }
-                )'''
+
 
 
 # CRIANDO O SIDEBAR LATERAL########################################################################################
