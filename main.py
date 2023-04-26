@@ -1,7 +1,7 @@
 #from streamlit_option_menu import option_menu
 import streamlit as st
 st.set_page_config(page_title="CODE-MIND",page_icon="cod.png")
-PARA SELEÇAO DE MENUS
+#PARA SELEÇAO DE MENUS################################
 st.header(":orange[MENU]")
 Lista_de_Menu=st.selectbox("---",options=['HOME','SOBRE','SERVIÇOS','CURSOS','APLICATIVOS','CONTACTOS'])
 
@@ -23,7 +23,7 @@ with st.sidebar:
     st.title(":orange[Cidade de Nampula]")
 
 
-if Lista_de_Menu=="INÍCIO":
+if Lista_de_Menu=="HOME":
     st.header(":orange[BEM-VINDO A CODE-MIND]")
     Imagem="PG.png"
     st.image(Imagem)
