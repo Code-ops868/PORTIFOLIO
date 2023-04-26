@@ -118,4 +118,12 @@ if Lista_de_Menu =="CURSOS":
         st.subheader(":green[Kivy e Kivymd para Desenvolvimento Mobile]")
         st.write("Os aplicativos móveis podem ter diversas finalidades, desde jogos e entretenimento até ferramentas de produtividade e utilitários. A programação mobile envolve a criação de interfaces de usuário otimizadas para dispositivos móveis, que geralmente possuem telas menores do que as de computadores desktop.")
         st.write(":orange[Ligue já para saber mais]")
+hiden ='''
+<style>
+#MainMenu {visibility:hidden;}
+header {visibility:hidden;}
+footer {visibility:hidden}
+</style>
+'''
+st.markdown(hiden,unsafe_allow_html=True)
         
