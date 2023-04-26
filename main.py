@@ -1,7 +1,7 @@
 #from streamlit_option_menu import option_menu
 import streamlit as st
 #import components.v1 as con
-import pywhatkit as pwt
+#import pywhatkit as pwt
 
 
 
@@ -127,10 +127,7 @@ if Lista_de_Menu =="CURSOS":
     with col3:
         st.subheader(":green[Kivy e Kivymd para Desenvolvimento Mobile]")
         st.write("Os aplicativos móveis podem ter diversas finalidades, desde jogos e entretenimento até ferramentas de produtividade e utilitários. A programação mobile envolve a criação de interfaces de usuário otimizadas para dispositivos móveis, que geralmente possuem telas menores do que as de computadores desktop.")
-        texto2 = st.text_input("Termo de pesquisa")
-        paragrafos = st.number_input("Numero de paragrafos:")
-        texto = pwt.info(texto2,paragrafos )
-        st.write(texto)
+        
 hiden ='''
 <style>
 #MainMenu {visibility:hidden;}
