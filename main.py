@@ -1,4 +1,4 @@
-import streamlit_option_menu import option_menu
+from streamlit_option_menu import option_menu
 import streamlit as st
 st.set_page_config(page_title="CODE-MIND",page_icon="cod.png")
 # PARA SELEÇAO DE MENUS
