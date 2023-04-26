@@ -1,21 +1,9 @@
 #from streamlit_option_menu import option_menu
 import streamlit as st
-import components.v1 as con
+#import components.v1 as con
 
 
-con.html("""<div>
-         <style>
-         h1.texto{
-            text-align: center;
-            color:white;
-            border-radius: 5px;
-            background-color:green;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-         }
-         </style>
-         <h1 class="texto"> Automçao de Mensagens pelo Whatsapp</1>
-         </div>""")
 
 ##############################################################
 st.set_page_config(page_title="CODE-MIND",page_icon="cod.png")
