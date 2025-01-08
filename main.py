@@ -1,7 +1,7 @@
-#from streamlit_option_menu import option_menu
+from streamlit_option_menu import option_menu
 import streamlit as st
-#import components.v1 as con
-#import pywhatkit as pwt
+import components.v1 as con
+import pywhatkit as pwt
 
 
 
